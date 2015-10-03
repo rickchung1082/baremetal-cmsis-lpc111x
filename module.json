@@ -1,0 +1,23 @@
+{
+  "name": "baremetal-cmsis-lpc111x",
+  "version": "0.1.0",
+  "description": "Baremetal CMSIS-CORE without any peripheral HAL for the NXP LPC111x",
+  "keywords": [
+    "no-hal"
+  ],
+  "author": "Scott Tsai <scottt.tw@gmail.com>",
+  "repository": {
+    "url": "git@github.com:scottt/baremetal-cmsis-lpc111x.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/scottt/baremetal-cmsis-lpc111x",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/BSD-3-Clause",
+      "type": "bsd-3-clause"
+    }
+  ],
+  "dependencies": {
+      "cmsis-core-lpc111x": "~0.1.0"
+  }
+}
